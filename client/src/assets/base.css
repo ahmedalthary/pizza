@@ -1,0 +1,15 @@
+/* start variable  */
+:root {
+  --main-color1: #303030;
+  --main-color2: #F4F4F4;
+  --transparent-color: rgb(15 116 143 / 70%);
+  --text-color:#0C0C0C;
+  --light-text-color:#DADADA;
+  --title-color:#FEC200;
+  --section-padding: 100px;
+  --border-light-color: #ccc;
+  --font-size1:14px;
+  --font-size2:20px;
+  --transition:0.3s
+}
+/* end variable  */

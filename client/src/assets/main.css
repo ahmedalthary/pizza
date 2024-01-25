@@ -1,0 +1,68 @@
+@import "./base.css";
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@400;700&display=swap");
+/* start global rules  */
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--main-color2);
+}
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.Container {
+  padding: 0 15px 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*small*/
+@media (min-width: 768px) {
+  .Container {
+    width: 750px;
+  }
+}
+
+/*medium*/
+@media (min-width: 992px) {
+  .Container {
+    width: 970px;
+  }
+}
+
+/*large*/
+@media (min-width: 1200px) {
+  .Container {
+    width: 1170px;
+  }
+}
+/* end global rules  */
+/* start component */
+.global-head {
+  text-align: center;
+}
+.global-head h2 {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-family: "Grand Hotel", cursive;
+}
+.global-head p {
+  font-size: var(--font-size1);
+  width: 550px;
+  max-width: 100%;
+  margin: 0 auto 100px;
+  color: var(--text-color);
+  line-height: 1.4;
+}
+/* end component */
